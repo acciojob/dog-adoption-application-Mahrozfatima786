@@ -12,7 +12,7 @@
 <body>
 	 <div class="form-container">
     <h2>Dog Adoption Application</h2>
-    <form id="dogAdoptionForm">
+    <form>
       <div class="form-group">
         <input type="text" id="name" name="name" placeholder="Name" required>
       </div>
@@ -23,16 +23,14 @@
         <input type="text" id="address" name="address" placeholder="Address" required>
       </div>
       <div class="form-group">
-        <input type="checkbox" id="livedWithDog" name="livedWithDog" value="Have you ever lived with a Dog before?">
-        <label for="livedWithDog">Have you ever lived with a Dog before?</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="Have you ever lived with a Dog before?">
+        <label for="checkbox">Have you ever lived with a Dog before?</label>
       </div>
       <div class="form-group">
-        <select id="preferredBreeds" name="preferredBreeds" multiple required>
+        <select id="multiSelect" name="multiSelect" multiple required>
           <option value="Labrador">Labrador</option>
           <option value="German Shepherd">German Shepherd</option>
           <option value="Golden Retriever">Golden Retriever</option>
-          <option value="Beagle">Beagle</option>
-          <option value="Bulldog">Bulldog</option>
         </select>
       </div>
       <div class="form-group">
